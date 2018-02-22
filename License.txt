@@ -1,0 +1,21 @@
+Licenza MIT
+
+Copyright (c) 2017 Samuele Corrieri 
+
+L'autorizzazione è concessa, a titolo gratuito, a chiunque ne ottenga la copia 
+di questo software e dei relativi file di documentazione (il "Software"), da trattare
+ nel Software senza restrizioni, inclusi senza limitazioni i di ritti
+utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e / o vendere 
+copie del Software e per consentire a chi è il Software
+ fornito a tal fine, alle seguenti condizioni: 
+
+La suddetta nota sul copyright e questo avviso di autorizzazione devono essere inclusi in tutti 
+copie o parti sostanziali del software. 
+
+IL SOFTWARE VIENE FORNITO "COSÌ COM'È", SENZA GARANZIA DI ALCUN TIPO, ESPLICITA O
+ IMPLICITO, INCLUSO, IN VIA ESEMPLIFICATIVA, LE GARANZIE DI COMMERCIABILITÀ,
+IDONEITÀ PER UN PARTICOLARE SCOPO E NON VIOLAZIONE. IN NESSUN CASO GLI 
+AUTORI O DETENTORI DI COPYRIGHT SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRO
+, ANCHE IN UN'AZIONE DI CONTRATTO, TORTO O ALTRIMENTI, DERIVATI, 
+FUORI O IN CONNESSIONE CON IL SOFTWARE O L'USO O ALTRE DISPOSIZIONI DEL 
+SOFTWARE.

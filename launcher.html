@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>WhatsappTracker</h1>
+		<h2>Rec</h2>
+
+		<p>
+			WhatsappTracker si collega all'app Web di WhatsApp per controllare ripetutamente se i tuoi amici sono online.
+			Queste informazioni vengono raccolte e archiviate localmente sul tuo computer,
+			in modo che tu possa visualizzarlo successivamente e analizzare l'attivit&aacute; dei tuoi amici.
+		</p>
+
+		<button id="button_record" shortcut-key='R'>
+			<u>R</u>ec
+		</button>
+
+		<h2>Visualizza</h2>
+
+		<p>
+			Prima di tutto metti in registrazione Whatsapp, <em> durante la registrazione </ em> puoi vedere in tempo reale
+			i tuoi contatti online.
+		</p>
+
+		<button id="button_online" shortcut-key='O'>
+			<u>O</u>nline
+		</button>
+
+		<p>
+			Le informazioni raccolte da WhatsappTracker sono del tipo:
+			"Annalisa &eacute; online alle 17:14" "Susanna &eacute; uscita alle 19:20".
+			Questa informazione pu&oacute; essere visualizzata nel "bellissimo" grafico "timeline".
+			Puoi scoprire quanto tempo le persone trascorrono su WhatsApp.
+			Se lo usano molto saprai anche quando vanno a dormire e quando si svegliano!
+		</p>
+
+		<form id="form_timeline">
+			<button type="button" id="button_timeline" shortcut-key='T'>
+				<u>T</u>imeline
+			</button>
+
+			<label for="select_display_period">Display</label>
+
+			<select id="select_display_mode" name="displayMode">
+				<option value="anytime">Tutto</option>
+				<option value="last">L'ultimo</option>
+				<option value="range">Intervallo</option>
+			</select>
+            
+			<span id="container_select_last">
+				<select id="select_last_what" name="displayLastWhat">
+					<option value="day">Giorno</option>
+					<option value="week">Settimana</option>
+					<option value="month">Mese</option>
+					<option value="year">Anno</option>
+				</select>
+			</span>
+			<span id="container_select_range">
+				<label for="start_date">Da</label>
+				<input type="date" id="start_date" name="startDate">
+				<label for="end_date">A</label>
+				<input type="date" id="end_date" name="endDate">
+			</span>
+		</form>
+
+		<script src="launcher.js"></script>
+		<script src="keyboardCommands.js"></script>
+	</body>
+</html>

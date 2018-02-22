@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style type="text/css">
+			html {
+				overflow: scroll;
+			}
+			body {
+				background-color: rgb(237, 239, 240);
+				margin: 0;
+				padding: 0;
+				overflow: visible;
+			}
+
+			#background_group {
+				fill: rgb(237, 239, 240);
+			}
+
+			#recordings_group {
+				fill: rgb(247, 249, 250);
+			}
+
+			#online_ranges_group {
+				stroke: black;
+				stroke-width: 4px;
+			}
+
+			#timeticks_group {
+				stroke: rgb(128, 128, 128);
+				stroke-dasharray: 5, 2, 3, 2;
+				stroke-width: 1;
+			}
+
+			#timeline_timelabels {
+				font-size: 12px;
+			}
+
+			#panel_background {
+				fill: #d7d9da;
+			}
+
+			#panel_border {
+				stroke: black;
+				stroke-width: 1px;
+			}
+
+			#panel_labels_group {
+				font-family: Verdana;
+				font-size: 9px;
+			}
+
+			#timeline_highlight_group, #panel_highlight_group {
+				fill: rgba(62, 76, 91, 0.25);
+			}
+
+		</style>
+		<script type="text/javascript" src="lib/d3.min.js"></script>
+		<script type="text/javascript" src="timeline.js"></script>
+		<script type="text/javascript" src="keyboardCommands.js"></script>
+	</head>
+	<body>
+		<div style="position: fixed;">
+			<!--
+			There was a bug, that when I tried to keep the panel horizontally aligned to
+			the left edge of the screen by translating it on each 'scroll' event, the panel
+			won't stay in its place and instead move only after some delay.
+
+			Adding some other element with 'position: fixed' to the page suprisingly fixed
+			the issue.
+			-->
+		</div>
+	</body>
+</html>

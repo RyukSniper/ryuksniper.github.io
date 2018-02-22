@@ -1,0 +1,17 @@
+body {
+	background-color: #f6f8f8;
+	padding: 0em 2em;
+}
+
+webview {
+	width: 100%;
+	height: 40em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+button {
+	padding: auto 1em;
+}
